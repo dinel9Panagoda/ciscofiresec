@@ -51,7 +51,7 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 pr-5">
 
                                     <div className="flex" id="navbar-sticky">
-                                    <a className='w-48' href='/'>
+                                    <a className='sm:w-48 w-36' href='/'>
                                     <img src='/images/CiscoLogo.png' className='' />
                                     </a>
                                     </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
                         {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                            <Bars3Icon className="block h-6 w-6 text-navyblue" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
                         {/* DRAWER LINKS DATA */}
