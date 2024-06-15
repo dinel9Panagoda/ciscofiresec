@@ -84,9 +84,8 @@ const Contactusform = () => {
 
                                     <div className="py-8 lg:py-8 px-4 mx-auto max-w-screen-md">
                                         <div className="flex flex-shrink-0 items-center justify-center">
-                                            <Link href="/" className='text-center text-2xl font-semibold text-black'>
+
                                                 Cisco Fire Security Communication
-                                            </Link>
                                         </div>
                                         <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contact us now? Want to get more information?</p>
                                         <form action="#" className="space-y-8" onSubmit={handleSubmit}>
