@@ -9,7 +9,7 @@ const Banner = () => {
                         <h1 className='font-black text-white lg:text-6xl md:text-5xl sm:text-4xl text-xl py-3'>
                             Cisco Fire Security Communication
                         </h1>
-
+                        
         </div>
         </div>
 

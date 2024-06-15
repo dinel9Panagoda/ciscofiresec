@@ -430,3 +430,28 @@ html {
 .space-links:hover {
     letter-spacing: 1px;
 }
+
+/* SideBar */
+.sidebar { 
+    /* width: 25%;  */
+    /* height: 50px;  */
+    /* min-height: 200px;  */
+    /* overflow: auto; */
+    background: #EC1E24; 
+    color: #ffffff; 
+    position: fixed; 
+    top: 150px; 
+    font-size: 25px; 
+    z-index: 1;
+} 
+
+/* .st-h3 { 
+    padding-left: 30px; 
+}  */
+
+li { 
+    list-style: none; 
+    /* padding: 9px;  */
+} 
+
+
