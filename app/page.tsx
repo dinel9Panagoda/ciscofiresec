@@ -15,8 +15,8 @@ export default function Home() {
     <main>
       <Banner />
       <SideBar />
-      <Articles />
-      <OurServices />
+      {/* <Articles /> */}
+      {/* <OurServices /> */}
       <Dedicated />
       <Digital />
       <Wework />

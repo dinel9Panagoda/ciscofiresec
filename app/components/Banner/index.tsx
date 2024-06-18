@@ -7,7 +7,7 @@ const Banner = () => {
             <img src="/images/services/fireAlarms.webp" alt="hero-image" className="blur" />
 
         
-            <div className='centered absolute top-20 max-w-7xl lg:p-32 md:p-10 p-5'>
+            <div className='centered absolute m-auto left-0 right-0 top-20 max-w-7xl lg:p-32 md:p-10 p-5'>
 
                         <h1 className='w-fit sm:font-bold font-semibold sm:px-5 sm:py-1 px-2 rounded-3xl tracking-wider text-white bg-red sm:text-lg text-xs hover:text-red hover:bg-[#fee2e2] hover:shadow-xl sm:mt-22 mt-20 typewriter'>YOUR PROBLEM SOLVING COMPANY</h1>
                         <h1 className='font-black text-white lg:text-6xl md:text-5xl sm:text-4xl text-xl py-3 banner_title_animation mb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
