@@ -6,7 +6,7 @@ import Wework from './components/Wework/index';
 // import Ourteam from './components/Ourteam/index';
 import FAQ from './components/FAQ/index';
 import Articles from './components/Articles/index';
-import OurServices from './components/Aboutus/index';
+import OurServices from './components/Services/index';
 import SideBar from './components/SideBar/index';
 
 

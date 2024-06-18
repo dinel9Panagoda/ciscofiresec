@@ -51,7 +51,7 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 pr-5">
 
                                     <div className="flex" id="navbar-sticky">
-                                    <a className='sm:w-48 w-36' href='/'>
+                                    <a className='sm:w-52 w-36' href='/'>
                                     <img src='/images/CiscoLogo.png' className='' />
                                     </a>
                                     </div>

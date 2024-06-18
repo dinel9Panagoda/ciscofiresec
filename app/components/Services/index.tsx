@@ -9,7 +9,7 @@ interface datatype {
     link: string;
 }
 
-const Aboutdata: datatype[] = [
+const Servicedata: datatype[] = [
     {
         heading: "Fire Alarms",
         imgSrc: "/images/services/imgOne.svg",
@@ -38,7 +38,7 @@ const OurServices = () => {
             <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
 <div className="text-center">
-    <h3 className="text-red text-lg font-normal tracking-widest">OUR SERVICES</h3>
+    <h3 className="text-red text-lg font-normal tracking-widest sm:pt-0 pt-64">OUR SERVICES</h3>
     <h3 className="text-4xl sm:text-6xl font-bold mb-10">What services we offer</h3>
 </div>
 

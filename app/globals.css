@@ -23,7 +23,7 @@ html:not([data-scroll="0"]) .navbar {
   transition: 0.4s linear;
   padding: 0px !important;
   /* height: 20px; */
-  z-index: 3;
+  z-index: 10;
 }
 
 /* html:not([data-scroll="0"]) .navbar>div>div {
@@ -50,10 +50,11 @@ html {
 }
 
 .centered{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    z-index: 5
 }
 
 .hover-underline {
@@ -442,7 +443,7 @@ html {
     position: fixed; 
     top: 150px; 
     font-size: 25px; 
-    z-index: 1;
+    z-index: 10;
 } 
 
 /* .st-h3 { 
