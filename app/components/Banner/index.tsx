@@ -15,7 +15,7 @@ const Banner = () => {
                         </h1>
 
     <div className='grid grid-cols-4 gap-1' >
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/fireAlarms.webp' alt="fire alarms" 
@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/accessControl.webp' alt="fire alarms" 
@@ -40,7 +40,7 @@ const Banner = () => {
 
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/videoIntercom.jpg' alt="fire alarms" 
@@ -53,7 +53,7 @@ const Banner = () => {
 
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/CCTV.jpg' alt="fire alarms" 
@@ -66,7 +66,7 @@ const Banner = () => {
 
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/intrusionAlarms.jpg' alt="fire alarms" 
@@ -79,7 +79,7 @@ const Banner = () => {
 
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/slidingDoor.jpg' alt="fire alarms" 
@@ -92,7 +92,7 @@ const Banner = () => {
 
         </div>
 
-        <div>
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/magneticLocks.jpg' alt="fire alarms" 
@@ -105,7 +105,7 @@ const Banner = () => {
 
         </div>
 
-        <div className="">
+        <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-t-xl h-22">
                 <img src='/images/services/NetWServers.jpg' alt="fire alarms" 
