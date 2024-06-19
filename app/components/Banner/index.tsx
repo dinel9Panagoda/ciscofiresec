@@ -10,10 +10,10 @@ const Banner = () => {
             </div>
 
         
-            <div className='centered absolute m-auto left-0 right-0 top-20 xl:p-72 lg:p-32 md:p-10 p-5'>
+            <div className='centered absolute m-auto left-0 right-0 top-0 bottom-0 xl:p-72 lg:p-32 md:p-10 p-5'>
 
-                        <h1 className='w-fit sm:font-bold font-semibold sm:px-5 lg:py-5 sm:py-1 px-2 rounded-full tracking-wider text-white bg-red lg:text-4xl sm:text-lg text-xs hover:text-red hover:bg-[#fee2e2] hover:shadow-xl sm:mt-22 mt-20 typewriter'>YOUR PROBLEM SOLVING COMPANY</h1>
-                        <h1 className='font-black text-white md:text-5xl lg:text-8xl sm:text-4xl text-xl lg:py-10 py-3 banner_title_animation mb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
+                        <h1 className='w-fit sm:font-bold font-semibold sm:px-5 2xl:py-5 sm:py-1 px-2 rounded-full tracking-wider text-white bg-red 2xl:text-4xl sm:text-lg text-xs hover:text-red hover:bg-[#fee2e2] hover:shadow-xl sm:mt-22 mt-20 typewriter'>YOUR PROBLEM SOLVING COMPANY</h1>
+                        <h1 className='font-black text-white md:text-5xl 2xl:text-8xl sm:text-4xl text-xl 2xl:py-10 py-3 banner_title_animation mb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
                             Cisco Fire Security Communication
                         </h1>
 
@@ -25,7 +25,7 @@ const Banner = () => {
             className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
             
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Fire Alarms</h4>
             </div>
         </div>
@@ -37,7 +37,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Access Control</h4>
             </div>
 
@@ -50,7 +50,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Video Intercom</h4>
             </div>
 
@@ -63,7 +63,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>CCTV</h4>
             </div>
 
@@ -76,7 +76,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Intrusion Alarms</h4>
             </div>
 
@@ -89,7 +89,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Sliding Doors/ Swing Doors Operators</h4>
             </div>
 
@@ -102,8 +102,8 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
-                <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Magnetic Locks/ Security Locks</h4>
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
+                <h4 className='lg:text-lg text-xs font-semibold p-1 text-white'>Magnetic Locks/ Security Locks</h4>
             </div>
 
         </div>
@@ -115,7 +115,7 @@ const Banner = () => {
                 className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
 
-            <div className="bg-red h-14 rounded-b-xl">
+            <div className="bg-red lg:h-24 h-14 rounded-b-xl">
                 <h4 className='lg:text-lg text-xs font-semibold pt-1 text-white'>Networking/ Wiring Server</h4>
             </div>
 
