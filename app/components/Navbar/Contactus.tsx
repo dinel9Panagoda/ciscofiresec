@@ -49,8 +49,8 @@ const Contactusform = () => {
                     </button>
                 </div> */}
                 <div className='hidden lg:block'>
-                    <button type="button" className='justify-end border-2 border-red text-sm font-semibold py-3 px-5 lg:px-5 navbutton rounded-full bg-red text-white hover:bg-transparent  hover:text-red hover:border-2' onClick={openModal}>
-                        Contact Us
+                    <button type="button" className='justify-end border-2 border-red text-sm font-semibold py-2 px-5 lg:px-5 navbutton rounded-2xl bg-red text-white hover:bg-transparent  hover:text-red hover:border-2' onClick={openModal}>
+                        <p className='drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Contact Us</p>
                     </button>
                 </div>
             </div>
