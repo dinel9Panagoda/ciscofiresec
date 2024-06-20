@@ -68,7 +68,7 @@ const OurServices = () => {
     <div >
 
         <div className='bg-white m-3 px-3 pt-3 pb-3 shadow-lg rounded-3xl relative'>
-            <img src='/images/services/accessControl.webp' alt="gaby" 
+            <img src='/images/services/accessControl.png' alt="gaby" 
             className="inline-block m-auto rounded-3xl w-full h-56 object-cover" />
 
 
@@ -144,7 +144,7 @@ className="inline-block m-auto rounded-3xl w-full h-56 object-cover" />
 <div >
 
 <div className='bg-white m-3 px-3 pt-3 pb-3 shadow-lg rounded-3xl relative'>
-<img src='/images/services/slidingDoor.jpg' alt="gaby" 
+<img src='/images/services/slidingDoor.jpeg' alt="gaby" 
 className="inline-block m-auto rounded-3xl w-full h-56 object-cover" />
 
 
@@ -182,7 +182,7 @@ className="inline-block m-auto rounded-3xl w-full h-56 object-cover" />
 <div >
 
 <div className='bg-white m-3 px-3 pt-3 pb-3 shadow-lg rounded-3xl relative'>
-<img src='/images/services/NetWServers.jpg' alt="gaby" 
+<img src='/images/services/NetWServers.jpeg' alt="gaby" 
 className="inline-block m-auto rounded-3xl w-full h-56 object-cover" />
 
 
