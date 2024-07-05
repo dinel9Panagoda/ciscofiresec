@@ -5,6 +5,21 @@ import Link from 'next/link';
 
 
 const Contactusform = () => {
+
+    interface NavigationItem {
+        name: string;
+        href: string;
+        current: boolean;
+    }
+    const navigation: NavigationItem[] = [
+        { name: 'Home', href: '/home', current: false },
+        { name: 'About Us', href: '/aboutus', current: false },
+    ]
+
+    function classNames(...classes: string[]) {
+        return classes.filter(Boolean).join(' ')
+    }
+
     let [isOpen, setIsOpen] = useState(false)
 
     const [inputValues, setInputValues] = useState({
@@ -43,6 +58,26 @@ const Contactusform = () => {
     return (
         <>
             <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
+                                            {/* LINKS */}
+
+                                            <div className="hidden lg:flex items-center ">
+                                <div className="flex justify-end space-x-4 mr-5">
+                                    {navigation.map((item) => (
+                                        <Link
+                                            key={item.name}
+                                            href={item.href}
+                                            className={classNames(
+                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-black',
+                                                'px-3 py-4 rounded-md text-sm font-extrabold'
+                                            )}
+                                            aria-current={item.href ? 'page' : undefined}
+                                        >
+                                            {item.name}
+                                        </Link>
+                                    ))}
+                                </div>
+
+                            </div>
                 {/* <div className='lg:hidden'>
                     <button type="button" className='bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded' onClick={openModal}>
                         Contact Us

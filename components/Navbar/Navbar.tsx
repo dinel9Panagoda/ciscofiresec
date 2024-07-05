@@ -25,10 +25,6 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/home', current: false },
     { name: 'About Us', href: '/aboutus', current: false },
-    { name: 'Architects', href: '/architects', current: false },
-    { name: 'Computer Servers', href: '/computer-servers', current: false },
-    { name: 'Fire Alarms', href: '/fire-alarms', current: false },
-    { name: 'Pre K Fire Alarm', href: '/pre-k-fire-alarm', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -57,26 +53,7 @@ const Navbar = () => {
                                     </div>
                             </div>
 
-                            {/* LINKS */}
 
-                            <div className="hidden lg:flex items-center ">
-                                <div className="flex justify-end space-x-4">
-                                    {navigation.map((item) => (
-                                        <Link
-                                            key={item.name}
-                                            href={item.href}
-                                            className={classNames(
-                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-black',
-                                                'px-3 py-4 rounded-md text-sm font-extrabold'
-                                            )}
-                                            aria-current={item.href ? 'page' : undefined}
-                                        >
-                                            {item.name}
-                                        </Link>
-                                    ))}
-                                </div>
-
-                            </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform />
                         </div>
