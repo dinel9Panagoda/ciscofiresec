@@ -27,7 +27,7 @@ export default function Home() {
       <Beliefs />
 
       {/* <Testimonials /> */}
-      <footer />
+      {/* <footer /> */}
       {/* <Insta /> */}
     </main>
   )
