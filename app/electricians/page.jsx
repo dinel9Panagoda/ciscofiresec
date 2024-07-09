@@ -5,14 +5,14 @@ import PhoneIcon from '@mui/icons-material/Phone';
 const Electricians = () => {
   return (
     <section className='my-32 sm:px-10 px-5'>
-        <h1 className='text-red font-semibold text-5xl Wittgenstein text-center pb-32 xl:text-6xl'>Architects</h1>
+        <h1 className='text-red font-semibold text-5xl Wittgenstein text-center pb-32 xl:text-6xl'>Electricians</h1>
 
         <div className='grid sm:grid-cols-2 gap-7'>
             <div>
-                <img src='/images/profservices/architect1.jpg' alt="architect" className="inline-block rounded-3xl w-full" />
+                <img src='/images/profservices/Electricians1.jpg' alt="Electrician" className="inline-block rounded-3xl w-full" />
             </div>
             <div className='text-justify'>
-            With a rich history spanning <span className='text-red text-xl font-bold'>40</span> years, our company stands as a testament to trust and reliability in the industry. Throughout the decades, we have consistently delivered quality products and services, earning the confidence of our customers and partners alike.Architects who bring us jobs receive special offers as a token of our appreciation. These offers may include discounted rates on our services, priority scheduling for project timelines, or access to exclusive design consultations. We value the trust and partnership architects place in us, and these offers are designed to strengthen our collaboration while providing added value for their clients. This approach not only enhances our professional relationship but also ensures that architects receive exceptional service and support as they continue to entrust us with their projects.
+            With a rich history spanning <span className='text-red text-xl font-bold'>40</span> years, our company stands as a testament to trust and reliability in the industry. Throughout the decades, we have consistently delivered quality products and services, earning the confidence of our customers and partners alike. Electricians who bring us jobs can take advantage of special offers tailored to their specific needs and preferences. These offers may include discounted rates on high-demand products or tools, expedited service for urgent projects, or personalized training sessions on new technologies and techniques. We understand the importance of our partnership with electricians and strive to reward their trust and collaboration with valuable benefits that contribute to their success. By providing these incentives, we aim to strengthen our professional relationship while ensuring electricians receive exceptional service and support whenever they choose to work with us.
             </div>
 
         </div>
