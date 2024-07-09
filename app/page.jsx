@@ -10,9 +10,9 @@ import OurServices from '../components/Services/index';
 import SideBar from '../components/SideBar/index';
 
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>
+    <section>
       <Banner />
       <SideBar />
       {/* <Articles /> */}
@@ -29,6 +29,8 @@ export default function Home() {
       {/* <Testimonials /> */}
       {/* <footer /> */}
       {/* <Insta /> */}
-    </main>
+    </section>
   )
 }
+
+export default Home

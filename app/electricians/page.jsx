@@ -2,7 +2,7 @@ import React from 'react'
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 
-const Architects = () => {
+const Electricians = () => {
   return (
     <section className='my-32 sm:px-10 px-5'>
         <h1 className='text-red font-semibold text-5xl Wittgenstein text-center pb-32 xl:text-6xl'>Architects</h1>
@@ -62,4 +62,4 @@ const Architects = () => {
   )
 }
 
-export default Architects
+export default Electricians

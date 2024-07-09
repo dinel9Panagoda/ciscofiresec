@@ -70,7 +70,7 @@ const index = () => {
                                             IN NY
                                             </div>
                                             <div className='bg-red py-2 border-x-2 border-y-2 border-red rounded-b-xl shadow-2xl font-bold text-white'>
-                                            718-427-4881
+                                            718-527-4881
                                             </div>
                                             </div>
 <br/>

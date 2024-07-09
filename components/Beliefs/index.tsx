@@ -91,7 +91,7 @@ const Beliefs = () => {
                     
                     <p className="text-center mb-10">
                     NJ 201-250-3672 <br/>
-                    NY 718-427-4881 <br/>
+                    NY 718-527-4881 <br/>
                     LI 516-800-2757
 
                     </p>
