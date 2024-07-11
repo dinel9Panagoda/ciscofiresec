@@ -15,6 +15,7 @@ const AccessControl = () => {
             <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Key Fob</div>
             <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Many more...</div>
 
+
         </div>
 
         <div className='grid sm:grid-cols-2 gap-7'>
