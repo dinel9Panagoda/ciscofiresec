@@ -23,7 +23,7 @@ const FireAlarms = () => {
 
         <div className='grid sm:grid-cols-2 gap-7'>
             <div>
-                <img src='/images/services/FireAlarms1.jpeg' alt="Fire Alarms" className="inline-block rounded-3xl w-full" />
+                <img src='/images/services/fireAlarms1.jpeg' alt="Fire Alarms" className="inline-block rounded-3xl w-full" />
             </div>
             <div className='text-justify'>
             Fire alarms are critical safety devices designed to detect the presence of smoke, heat, or ames, signaling potential danger and prompting timely evacuation. These alarms serve as the rst line of defense in safeguarding lives and property against the devastating eects of re. Equipped with advanced sensors, modern re alarm systems are capable of detecting even the slightest traces of smoke, ensuring early detection and swift response to emergencies. Upon activation, these alarms emit loud, unmistakable alerts, alerting occupants to evacuate the premises immediately and alerting emergency responders to the location of the incident. With their reliability and eectiveness, re alarms play a pivotal role in mitigating the impact of res, saving lives, and minimizing property damage. Regular maintenance and testing are crucial to ensure their proper functionality, providing peace of mind and enhanced safety for all.
