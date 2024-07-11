@@ -20,18 +20,23 @@ const Banner = () => {
     <div className='grid grid-cols-4 xl:gap-10 lg:gap-3 gap-1 uppercase' >
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
 
+<a href="/firealarms">
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
 
                 <img src='/images/services/fireAlarms.webp' alt="fire alarms" 
             className="inline-block m-auto rounded-xl w-full object-cover lg:h-full h-20" />
             </div>
+
             
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center mb-3">
                 <h4 className='lg:text-lg text-xs font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Fire Alarms</h4>
             </div>
+            </a>
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+
+<a href="/accesscontrol">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/accessControl.png' alt="fire alarms" 
@@ -41,10 +46,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg text-xs font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Access Control</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/videointercom">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/videoIntercom.jpg' alt="fire alarms" 
@@ -54,10 +61,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg text-xs font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Video Intercom</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/cctv">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/CCTV.jpg' alt="fire alarms" 
@@ -67,10 +76,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg text-xs font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>CCTV</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/intrusionalarms">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/intrusionAlarms.jpg' alt="fire alarms" 
@@ -80,10 +91,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg text-xs font-semibold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Intrusion Alarms</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/slidingswingdoors">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/slidingDoor.jpeg' alt="fire alarms" 
@@ -93,10 +106,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg sm:text-xs text-xss font-semibold px-1 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Sliding Doors/ Swing Doors Operators</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/magneticsecuritylocks">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/magneticLocks.jpg' alt="fire alarms" 
@@ -106,10 +121,12 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg sm:text-xs text-xss font-semibold p-1 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Magnetic Locks/ Security Locks</h4>
             </div>
+            </a>
 
         </div>
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-5 cursor-pointer">
+<a href="/networkingwiring">
 
             <div className="bg-white px-1 py-1 shadow-lg rounded-xl lg:h-56 h-22">
                 <img src='/images/services/NetWServers.jpeg' alt="fire alarms" 
@@ -119,6 +136,7 @@ const Banner = () => {
             <div className="bg-grey lg:h-14 h-10 rounded-full mt-1 flex items-center justify-center">
                 <h4 className='lg:text-lg sm:text-xs text-xss font-semibold pt-1 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Networking/ Wiring Server</h4>
             </div>
+            </a>
 
         </div>
 
