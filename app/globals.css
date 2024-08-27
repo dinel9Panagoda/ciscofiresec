@@ -6,6 +6,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* SLICK CAROUSEL LINKS */
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
@@ -500,4 +501,47 @@ li {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: white; }
+  }
+
+  /* List Styling */
+  .list-disc li {
+    list-style-type: disc;
+  }
+
+  /* Service Page Background */
+
+.bg-firealarms, .bg-accesscontrol, .bg-videointercom, .bg-cctv, .bg-intusionalarms, .bg-slidingdoors, .bg-magneticlocks, .bg-netservers{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .bg-firealarms {
+    background-image: url("/images/services/fire-alarms-bg.png");
+  }
+
+  .bg-accesscontrol{
+    background-image: url("/images/services/access-control-bg.png");
+  }
+
+  .bg-videointercom {
+    background-image: url("/images/services/video-intercom-bg.png");
+  }
+
+  .bg-cctv {
+    background-image: url("/images/services/cctv-bg.png");
+  }
+
+  .bg-intusionalarms {
+    background-image: url("/images/services/intrusion-alarms-bg.png");
+  }
+
+  .bg-slidingdoors {
+    background-image: url("/images/services/sliding-doors-bg.png");
+  }
+
+  .bg-magneticlocks {
+    background-image: url("/images/services/magnetic-locks-bg.png");
+  }
+
+  .bg-netservers{
+    background-image: url("/images/services/net-server-bg.png");
   }

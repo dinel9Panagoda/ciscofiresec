@@ -64,6 +64,9 @@ module.exports = {
     '65xl': ['65px', { lineHeight: '1' }],
       '80xl': ['80px', { lineHeight: '6rem' }],
     },
+    listStyleType: {
+        square: 'square',
+      },
     extend: {},
   },
   plugins: [],
