@@ -68,9 +68,15 @@ New York, NY 10001</h5>
                         <div className="flex gap-4 mt-10">
                             <Image src={'/images/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
                             <div>
-                            <h5 className="text-base font-normal text-offwhite">NJ 201-250-3672</h5>
-                            <h5 className="text-base font-normal text-offwhite">NY 718-427-4881</h5>
-                            <h5 className="text-base font-normal text-offwhite">LI 516-800-2757</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">NJ</span> 201-250-3672</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">NY</span> 718-427-4881</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">LI</span> 516-800-2757</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">UNY</span> 914-760-2100</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">SUFFOLK COUNTY</span> 631-784-5440</h5>
+                            
+
+
+
                             </div>
                            
                         </div>

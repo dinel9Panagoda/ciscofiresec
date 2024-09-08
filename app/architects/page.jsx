@@ -31,10 +31,12 @@ const Architects = () => {
                     </div>
 
                     
-                    <p className="text-center mb-10">
-                    NJ 201-250-3672 <br/>
-                    NY 718-527-4881 <br/>
-                    LI 516-800-2757
+                    <p className="pl-3 mb-10">
+                    <span className='font-bold text-red'>NJ</span> 201-250-3672 <br/>
+                    <span className='font-bold text-red'>NY</span> 718-527-4881 <br/>
+                    <span className='font-bold text-red'>LI</span> 516-800-2757 <br/>
+                    <span className='font-bold text-red'>UNY</span> 914-760-2100 <br/>
+                    <span className='font-bold text-red'>SUFFOLK COUNTY</span> 631-784-5440 <br/>
 
                     </p>
 

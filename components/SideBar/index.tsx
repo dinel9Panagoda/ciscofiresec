@@ -84,6 +84,28 @@ const index = () => {
                                             </div>
                                             </div>
 
+                                            <br/>
+
+                                            <div className='w-52'>
+                                            <div className='bg-lightblue pt-3 rounded-t-xl shadow-2xl border-t-2 pb-1 border-x-2 text-navyblue text-xl border-navyblue font-black'><LocationOnIcon /> 
+                                            IN UNY
+                                            </div>
+                                            <div className='bg-red py-2 border-x-2 border-y-2 border-red rounded-b-xl shadow-2xl font-bold text-white'>
+                                            914-760-2100
+                                            </div>
+                                            </div>
+
+                                            <br/>
+
+                                            <div className='w-52'>
+                                            <div className='bg-lightblue pt-3 rounded-t-xl shadow-2xl border-t-2 pb-1 border-x-2 text-navyblue border-navyblue font-black'><LocationOnIcon /> 
+                                            IN SUFFOLK COUNTY
+                                            </div>
+                                            <div className='bg-red py-2 border-x-2 border-y-2 border-red rounded-b-xl shadow-2xl font-bold text-white'>
+                                            631-784-5440
+                                            </div>
+                                            </div>
+
                                         </div>
                                         
                                     </div>
