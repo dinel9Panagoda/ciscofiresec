@@ -546,3 +546,91 @@ li {
   .bg-netservers{
     background-image: url("/images/services/net-server-bg.png");
   }
+
+  .service_list_item {
+    background-color: #273F92;
+    color: #eff6ff;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  .service_list_item_many_more {
+    background-color: #A6A6A6;
+    color: #eff6ff;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  .service_list_item:hover {
+    background-color: #A6A6A6;
+  }
+
+  .service_list_item_many_more:hover {
+    background-color: #273F92;
+  }
+
+  
+  .scrolling_text {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
+    background-color: yellow;
+}
+
+.text {
+    /* background-color: yellow; */
+    text-transform: uppercase;
+    color: black;
+    animation: animate_text 30s linear infinite; /* The 
+    animation property */
+    margin: 0 40px;
+
+}
+
+.text span {
+    margin: 0 40px;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+/* BREADCRUMB */
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px;
+    list-style: none;
+    /* @apply sm:mx-10 mx-5 mt-10; */
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    /* @apply text-sm; */
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    /* @apply text-slate-500; */
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    /* @apply text-sky-400 */
+  }
+  

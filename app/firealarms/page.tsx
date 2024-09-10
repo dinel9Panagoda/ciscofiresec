@@ -3,6 +3,7 @@ import React from 'react'
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import Image from "next/image";
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 import Slider from "react-slick";
 
@@ -104,7 +105,7 @@ const FireAlarms = () => {
   return (
     <section className='py-32 bg-firealarms'>
         
-        <div className='sm:px-10 px-5 '>
+        <div className='sm:px-10 px-10'>
         <h1 className='text-red font-semibold text-5xl Wittgenstein text-center pb-20 xl:text-6xl'>FIRE ALARMS</h1>
 
         {/* <div className='flex flex-wrap pb-20 gap-3 justify-center items-center'>
@@ -127,18 +128,18 @@ const FireAlarms = () => {
             <div className='text-justify'>
             Fire alarms are critical safety devices designed to detect the presence of smoke, heat, or ames, signaling potential danger and prompting timely evacuation. These alarms serve as the rst line of defense in safeguarding lives and property against the devastating eects of re. Equipped with advanced sensors, modern re alarm systems are capable of detecting even the slightest traces of smoke, ensuring early detection and swift response to emergencies.
 
-            <div className='grid grid-cols-2 mt-10 list-disc text-navyblue ml-10'>
-                <ul>
-                    <li>School</li>
-                    <li>Buildings</li>
-                    <li>Office</li>
-                    <li>Educational</li>
+            <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5'>
+                <ul><a href='/firealarms/schools'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Schools</li></a>
+                    
+                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Buildings</li>
+                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Offices</li>
+                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Educational</li>
                 </ul>
                 <ul>
-                    <li>Institution</li>
-                    <li>Residencial</li>
-                    <li>Warehouses</li>
-                    <li>Many more...</li>
+                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Institutions</li>
+                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Residential</li>
+                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Warehouses</li>
+                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...</li>
                 </ul>
             </div>
 
