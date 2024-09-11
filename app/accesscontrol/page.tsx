@@ -5,6 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 import Slider from "react-slick";
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 // CAROUSEL DATA
 
@@ -122,15 +123,22 @@ const AccessControl = () => {
     <div className='text-justify'>
     Access control is the practice of regulating who can enter or use resources in a particular environment. Whether it's a physical space, a computer network, or digital data, access control ensures that only authorized individuals or systems are granted entry or permission. By implementing access control measures such as biometric scanners, key cards, or passwords, organizations can effectively manage security risks and protect sensitive information from unauthorized access or misuse.
 
-    <div className='grid grid-cols-2 mt-10 list-disc text-navyblue ml-10'>
-        <ul>
-            <li>Face Recognition</li>
-            <li>Pin No</li>
-            <li>Card</li>
-            <li>Key Fob</li>
-            <li>Many more...</li>
-        </ul>
-    </div>
+    <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5 text-sm'>
+                <ul>
+                    <a href='/accesscontrol/facerecognition'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Face Recognition</li></a>
+                    
+                     <a href='/accesscontrol/pinno'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Pin No</li></a>
+
+                    <a href='/accesscontrol/card'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Card</li></a>
+
+                     <a href='/accesscontrol/keyfob'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Key Fob</li></a>
+                </ul>
+
+                <ul>
+
+                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...link???</li>
+                </ul>
+            </div>
 
     </div>
 

@@ -148,7 +148,7 @@ html {
 .bg-build {
   background-image: url('/images/beliefs/getInTouch.gif');
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center bottom;
   background-size: 500px;
 }
 
@@ -601,36 +601,3 @@ li {
     }
 }
 
-/* BREADCRUMB */
-/* Style the list */
-ul.breadcrumb {
-    padding: 10px;
-    list-style: none;
-    /* @apply sm:mx-10 mx-5 mt-10; */
-
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-    display: inline;
-    /* @apply text-sm; */
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: rgb(255, 255, 255);
-    content: ">\00a0";
-  }
-  
-  /* Add a color to all links inside the list */
-  ul.breadcrumb li a {
-    /* @apply text-slate-500; */
-    text-decoration: none;
-  }
-  
-  /* Add a color on mouse-over */
-  ul.breadcrumb li a:hover {
-    /* @apply text-sky-400 */
-  }
-  

@@ -128,18 +128,25 @@ const FireAlarms = () => {
             <div className='text-justify'>
             Fire alarms are critical safety devices designed to detect the presence of smoke, heat, or ames, signaling potential danger and prompting timely evacuation. These alarms serve as the rst line of defense in safeguarding lives and property against the devastating eects of re. Equipped with advanced sensors, modern re alarm systems are capable of detecting even the slightest traces of smoke, ensuring early detection and swift response to emergencies.
 
-            <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5'>
-                <ul><a href='/firealarms/schools'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Schools</li></a>
-                    
-                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Buildings</li>
-                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Offices</li>
-                    <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Educational</li>
-                </ul>
+            <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5 text-sm'>
                 <ul>
-                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Institutions</li>
-                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Residential</li>
-                <li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Warehouses</li>
-                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...</li>
+                    <a href='/firealarms/schools'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Schools</li></a>
+                    
+                     <a href='/firealarms/buildings'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Buildings</li></a>
+
+                    <a href='/firealarms/offices'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Offices</li></a>
+
+                     <a href='/firealarms/educational'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Educational - what is meant???</li></a>
+                </ul>
+
+                <ul>
+                 <a href='/firealarms/institutions'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Institutions</li></a>
+
+                <a href='/firealarms/residential'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Residential</li></a>
+
+                 <a href='/firealarms/warehouses'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Warehouses</li></a>
+
+                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...link???</li>
                 </ul>
             </div>
 
