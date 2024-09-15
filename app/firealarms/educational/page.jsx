@@ -29,19 +29,19 @@ const Educational = () => {
                 <div className="scrolling_text">
                     <div className="text py-3 font-black">
 
-                        <span>Click here to see our special discounts! </span>
+                        <span>Click here to see our special offers! </span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
@@ -49,19 +49,19 @@ const Educational = () => {
 
                     <div className="text py-3 font-black">
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
                         
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
                     </div>
@@ -75,38 +75,38 @@ const Educational = () => {
                         Fire alarms in educational facilities are vital safety systems designed to protect students, staff, and visitors from fire-related emergencies. These systems combine smoke detectors, heat sensors, and manual pull stations to promptly detect signs of fire and trigger an immediate alert throughout the building. The alarm system produces a loud audible warning and flashing lights, ensuring a swift evacuation of classrooms, halls, and other areas. Many modern fire alarms also feature voice evacuation messages tailored for educational settings, guiding occupants to safety. Regular testing and maintenance of fire alarm systems are crucial to maintaining a safe learning environment and meeting safety standards.                        </div>
                         
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-1 pt-10">
-    <div class="grid gap-1">
+<div className="grid grid-cols-2 md:grid-cols-3 gap-1 pt-10">
+    <div className="grid gap-1">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa1.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
-        </div>
-    </div>
-    <div class="grid gap-1">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa4.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa3.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/schoolfire.webp" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
         </div>
     </div>
-    <div class="grid gap-1">
+    <div className="grid gap-1">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa2.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa4.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa3.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/schoolfire.webp" alt="" />
+        </div>
+    </div>
+    <div className="grid gap-1">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa2.jpg" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
         </div>
     </div>
 
@@ -129,7 +129,7 @@ const Educational = () => {
                             <span className='font-bold text-navyblue'>NJ</span> 201-250-3672 <br/>
                             <span className='font-bold text-navyblue'>NY</span> 718-527-4881 <br/>
                             <span className='font-bold text-navyblue'>LI</span> 516-800-2757 <br/>
-                            <span className='font-bold text-navyblue'>UNY</span> 914-760-2100 <br/>
+                            <span className='font-bold text-navyblue'>UPSTATE NEW YORK</span> 914-760-2100 <br/>
                             <span className='font-bold text-navyblue'>SUFFOLK COUNTY</span> 631-784-5440 <br/>
                         </p>
 

@@ -28,6 +28,6 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/ContactForm/index.jsx", "components/Navbar/Contactus.jsx"  ],
   "exclude": ["node_modules"]
 }

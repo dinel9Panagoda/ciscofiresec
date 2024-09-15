@@ -11,10 +11,6 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/home', current: false },
     { name: 'About Us', href: '/aboutus', current: false },
-    { name: 'Architects', href: '/architects', current: false },
-    { name: 'Computer Servers', href: '/computer-servers', current: false },
-    { name: 'Fire Alarms', href: '/fire-alarms', current: false },
-    { name: 'Pre K Fire Alarm', href: '/pre-k-fire-alarm', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -40,10 +36,10 @@ const Data = () => {
                                 {item.name}
                             </Link>
                         ))}
-                        <div className="mt-4"></div>
-                        <button className="border-2 border-red text-sm font-semibold py-3 px-5 lg:px-5 navbutton rounded-full bg-red text-white w-full hover:bg-transparent  hover:text-red hover:border-2">
+                        {/* <div className="mt-4"></div> */}
+                        {/* <button className="border-2 border-red text-sm font-semibold py-3 px-5 lg:px-5 navbutton rounded-full bg-red text-white w-full hover:bg-transparent  hover:text-red hover:border-2">
                             Contact Us
-                        </button>
+                        </button> */}
                         {/* <Contactusform /> */}
                     </div>
                 </div>

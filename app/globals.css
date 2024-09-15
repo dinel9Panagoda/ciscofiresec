@@ -56,6 +56,11 @@ html {
     text-align: center;
 }
 
+.banner_background {
+    background-color: #b1b1b1;
+    background: linear-gradient(to top left, #cbcbcb50, rgba(108, 108, 108, 0), #cfabab), linear-gradient(to top right, #696969, rgba(126, 126, 126, 0), #5e5e6b), #8291ba;
+}
+
 
 .centered{
     /* position: absolute; */
@@ -548,7 +553,7 @@ li {
   }
 
   .service_list_item {
-    background-color: #273F92;
+    background-color: #EC1E24;
     color: #eff6ff;
     border-radius: 50px;
     margin-bottom: 10px;
@@ -575,13 +580,13 @@ li {
     overflow: hidden;
     display: flex;
     white-space: nowrap;
-    background-color: yellow;
+    background-color: red;
 }
 
 .text {
     /* background-color: yellow; */
     text-transform: uppercase;
-    color: black;
+    color: white;
     animation: animate_text 30s linear infinite; /* The 
     animation property */
     margin: 0 40px;
@@ -601,3 +606,10 @@ li {
     }
 }
 
+.glassmorphism {
+    @apply shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur;
+  }
+
+  .glassmorphism_blue {
+    @apply shadow-[inset_10px_-50px_94px_0_rgb(137,207,240,0.2)] backdrop-blur;
+}

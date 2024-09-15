@@ -55,13 +55,13 @@ const Navbar = () => {
 
 
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform />
                         </div>
 
 
                         {/* DRAWER FOR MOBILE VIEW */}
 
                         {/* DRAWER ICON */}
+                        <Contactusform />
 
                         <div className='block lg:hidden'>
                             <Bars3Icon className="block h-6 w-6 text-navyblue" aria-hidden="true" onClick={() => setIsOpen(true)} />

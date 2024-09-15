@@ -130,13 +130,12 @@ const FireAlarms = () => {
 
             <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5 text-sm'>
                 <ul>
-                    <a href='/firealarms/schools'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Schools</li></a>
+                    <a href='/firealarms/schools'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Educational</li></a>
                     
                      <a href='/firealarms/buildings'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Buildings</li></a>
 
                     <a href='/firealarms/offices'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Offices</li></a>
 
-                     <a href='/firealarms/educational'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Educational - what is meant???</li></a>
                 </ul>
 
                 <ul>
@@ -146,7 +145,7 @@ const FireAlarms = () => {
 
                  <a href='/firealarms/warehouses'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Warehouses</li></a>
 
-                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...link???</li>
+                {/* <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...</li> */}
                 </ul>
             </div>
 

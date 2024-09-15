@@ -66,7 +66,7 @@ module.exports = {
       '80xl': ['80px', { lineHeight: '6rem' }],
     },
     boxShadow: {
-        '3xl': '60px 35px 60px -3px rgba(0, 0, 0, 0.5)',
+        '3xl': '0px 5px 15px -1px rgba(0, 0, 0, 0.5)',
     },
     listStyleType: {
         square: 'square',

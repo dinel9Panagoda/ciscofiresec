@@ -29,19 +29,19 @@ const Warehouses = () => {
                 <div className="scrolling_text">
                     <div className="text py-3 font-black">
 
-                        <span>Click here to see our special discounts! </span>
+                        <span>Click here to see our special offers! </span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
@@ -49,19 +49,19 @@ const Warehouses = () => {
 
                     <div className="text py-3 font-black">
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
 
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
                         
-                        <span>Click here to see our special discounts!</span>
+                        <span>Click here to see our special offers!</span>
 
                         <span><img src='/icons/discount-shape.svg' className='inline-block w-10' /></span>
                     </div>
@@ -75,38 +75,38 @@ const Warehouses = () => {
 Fire alarms in warehouses are critical safety systems designed to protect large storage spaces, inventory, and personnel from fire risks. These systems use a combination of smoke detectors, heat sensors, and manual call points to quickly detect smoke, heat, or flames in expansive areas with high ceilings and varied storage materials. Upon detection, the alarm system triggers an audible alert and flashing lights, ensuring that all personnel are promptly notified and can evacuate safely. Many warehouse fire alarms also integrate with sprinkler systems and remote monitoring for rapid response. Regular inspections and maintenance are crucial to keep these systems effective and compliant with safety regulations.                        </div>
                         
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-1 pt-10">
-    <div class="grid gap-1">
+<div className="grid grid-cols-2 md:grid-cols-3 gap-1 pt-10">
+    <div className="grid gap-1">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa1.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
-        </div>
-    </div>
-    <div class="grid gap-1">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa4.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa3.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/schoolfire.webp" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
         </div>
     </div>
-    <div class="grid gap-1">
+    <div className="grid gap-1">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa2.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa4.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa3.jpg" alt="" />
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/schoolfire.webp" alt="" />
+        </div>
+    </div>
+    <div className="grid gap-1">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa2.jpg" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
         </div>
     </div>
 
@@ -129,7 +129,7 @@ Fire alarms in warehouses are critical safety systems designed to protect large 
                             <span className='font-bold text-navyblue'>NJ</span> 201-250-3672 <br/>
                             <span className='font-bold text-navyblue'>NY</span> 718-527-4881 <br/>
                             <span className='font-bold text-navyblue'>LI</span> 516-800-2757 <br/>
-                            <span className='font-bold text-navyblue'>UNY</span> 914-760-2100 <br/>
+                            <span className='font-bold text-navyblue'>UPSTATE NEW YORK</span> 914-760-2100 <br/>
                             <span className='font-bold text-navyblue'>SUFFOLK COUNTY</span> 631-784-5440 <br/>
                         </p>
 

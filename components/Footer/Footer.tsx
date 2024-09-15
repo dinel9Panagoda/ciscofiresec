@@ -71,7 +71,7 @@ New York, NY 10001</h5>
                             <h5 className="text-base font-normal text-offwhite"><span className="font-bold">NJ</span> 201-250-3672</h5>
                             <h5 className="text-base font-normal text-offwhite"><span className="font-bold">NY</span> 718-427-4881</h5>
                             <h5 className="text-base font-normal text-offwhite"><span className="font-bold">LI</span> 516-800-2757</h5>
-                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">UNY</span> 914-760-2100</h5>
+                            <h5 className="text-base font-normal text-offwhite"><span className="font-bold">UPSTATE NEW YORK</span> 914-760-2100</h5>
                             <h5 className="text-base font-normal text-offwhite"><span className="font-bold">SUFFOLK COUNTY</span> 631-784-5440</h5>
                             
 
