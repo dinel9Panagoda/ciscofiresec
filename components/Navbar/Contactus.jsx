@@ -120,7 +120,7 @@ const Contactusform = () => {
                                                         <span className='font-bold text-black'>NJ</span> 201-250-3672 <br/>
                                                         <span className='font-bold text-black'>NY</span> 718-527-4881 <br/>
                                                         <span className='font-bold text-black'>LI</span> 516-800-2757 <br/>
-                                                        <span className='font-bold text-black'>UPSTATE NEW YORK</span> 914-760-2100 <br/>
+                                                        <span className='font-bold text-black'>UNY</span> 914-760-2100 <br/>
                                                         <span className='font-bold text-black'>SUFFOLK COUNTY</span> 631-784-5440 <br/>
 
                                                     </p>

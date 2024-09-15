@@ -129,7 +129,7 @@ const FaceRecognition = () => {
                             <span className='font-bold text-navyblue'>NJ</span> 201-250-3672 <br/>
                             <span className='font-bold text-navyblue'>NY</span> 718-527-4881 <br/>
                             <span className='font-bold text-navyblue'>LI</span> 516-800-2757 <br/>
-                            <span className='font-bold text-navyblue'>UPSTATE NEW YORK</span> 914-760-2100 <br/>
+                            <span className='font-bold text-navyblue'>UNY</span> 914-760-2100 <br/>
                             <span className='font-bold text-navyblue'>SUFFOLK COUNTY</span> 631-784-5440 <br/>
                         </p>
 
