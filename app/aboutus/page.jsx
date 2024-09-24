@@ -12,7 +12,7 @@ const AboutUs = () => {
         <p className='text-center font-black Wittgenstein text-3xl text-grey'>Ensuring Safety for All</p>
     </section>
 
-  )
+    )
 }
 
 export default AboutUs
