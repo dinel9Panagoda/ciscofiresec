@@ -1,56 +1,55 @@
 "use client"
 
 import React from 'react'
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
 
 import Slider from "react-slick";
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import RecentWork from '@/components/RecentWorkIcon';
 
 // CAROUSEL DATA
 
 interface DataType {
-    // profession: string;
-    // name: string;
     imgSrc: string;
 }
 
 const postData: DataType[] = [
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac1.jpg'
+  {
+        imgSrc: '/images/services/accesscontrol/AC1.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac2.jpg'
+    {  
+        imgSrc: '/images/services/accesscontrol/AC2.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac3.jpg'
+{
+
+        imgSrc: '/images/services/accesscontrol/AC3.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac4.jpg'
+    {  
+        imgSrc: '/images/services/accesscontrol/AC4.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac5.jpg'
+{
+
+        imgSrc: '/images/services/accesscontrol/AC5.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac6.jpg'
+{
+
+        imgSrc: '/images/services/accesscontrol/AC6.jpeg'
     },
-    {
-        // profession: 'Co-founder',
-        // name: 'John Doe',
-        imgSrc: '/images/services/accesscontrol/ac7.jpg'
-    }
+{
+
+        imgSrc: '/images/services/accesscontrol/AC7.jpeg'
+},
+{
+    
+    imgSrc: '/images/services/accesscontrol/AC8.jpeg'
+        },
+        {
+        
+                imgSrc: '/images/services/accesscontrol/AC9.jpeg'
+            },
+            {
+            
+                    imgSrc: '/images/services/accesscontrol/AC10.jpeg'
+                }
 ]
 
 const AccessControl = () => {
@@ -97,55 +96,46 @@ const AccessControl = () => {
         ]
     };
 
-  return (
-    <section className='py-32 bg-accesscontrol'>
+    return (
+        <section className=''>
 
-<div className='sm:px-10 px-5 '>
-<h1 className='text-red font-semibold text-5xl Wittgenstein text-center pb-20 xl:text-6xl'>ACCESS CONTROL</h1>
+            <div className='mb-32'>
+                <img className='w-full' src='/images/services/accesscontrol/AccessControlMainBanner.png' alt='Access Control' />
 
-{/* <div className='flex flex-wrap pb-20 gap-3 justify-center items-center'>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>School</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red'>Buildings</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Office</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Educational</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Institution</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>School</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Residencial</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Ware houses</div>
-    <div className='bg-lightred px-3 py-3 rounded-3xl text-red '>Many more...</div>
+            </div>
 
-</div> */}
 
-<div className='grid sm:grid-cols-2 gap-7'>
+<div className='grid sm:grid-cols-2 gap-7 px-10 max-w-7xl mx-auto'>
     <div>
-        <img src='/images/services/accessControl.png' alt="Fire Alarms" className="inline-block rounded-3xl w-full" />
+        <img src='/images/services/accesscontrol/AccessControlFaceRecog.jpeg' alt="Access Control Face Recognition" className="inline-block rounded-3xl w-full" />
     </div>
     <div className='text-justify'>
+    <img className='inline-block w-auto pb-10' src='/images/services/accesscontrol/ACCESS_CONTROL.png' /><br />    
     Access control is the practice of regulating who can enter or use resources in a particular environment. Whether it's a physical space, a computer network, or digital data, access control ensures that only authorized individuals or systems are granted entry or permission. By implementing access control measures such as biometric scanners, key cards, or passwords, organizations can effectively manage security risks and protect sensitive information from unauthorized access or misuse.
 
     <div className='grid grid-cols-2 gap-5 mt-10 text-navyblue ml-5 text-sm'>
-                <ul>
-                    <a href='/accesscontrol/facerecognition'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Face Recognition</li></a>
+                        <ul>
+                    <a href='/accesscontrol/facerecognition'><li className='service_list_item_ac cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Face Recognition</li></a>
                     
-                     <a href='/accesscontrol/pinno'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Pin No</li></a>
+                     <a href='/accesscontrol/pinno'><li className='service_list_item_ac cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Pin No</li></a>
 
-                    <a href='/accesscontrol/card'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Card</li></a>
 
-                     <a href='/accesscontrol/keyfob'><li className='service_list_item cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Key Fob</li></a>
+                    
                 </ul>
 
                 <ul>
 
-                <li className='service_list_item_many_more cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Many more...link???</li>
+                <a href='/accesscontrol/card'><li className='service_list_item_ac cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Card</li></a>
+                <a href='/accesscontrol/keyfob'><li className='service_list_item_ac cursor-pointer'><ArrowCircleRightIcon fontSize='large' className='m-1'/>Key Fob</li></a>
                 </ul>
             </div>
 
     </div>
+    </div>
 
-</div>
+    <RecentWork />
 
-<h6 className='text-red text-center pt-20 pb-5'>Recent Access Control Units We Did For Our Clients...</h6>
-</div>
+<h6 className='text-red text-center pb-5 font-bold text-3xl'>Recent Access Control Units We Did For Our Clients...</h6>
 
         
 
