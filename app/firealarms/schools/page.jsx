@@ -6,6 +6,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import SpecialOfferLine from '@/components/SpecialOfferLine';
 import Modal from '@mui/material/Modal';
+import OutboundIcon from '@mui/icons-material/Outbound';
 
 const Schools = () => {
 
@@ -23,103 +24,104 @@ const Schools = () => {
     return (
         <section className=''>
 
-            <div className=' relative bg-grey sm:py-32 py-20 sm:pl-10 pl-5'>
-                <a href='/firealarms'>
-                <div className='absolute top-0 text-xs bg-lightgrey my-3 px-2 rounded-full w-fit pt-1'><span className='m-auto'><ArrowLeftIcon className='inline-block' />BACK TO <span>FIRE ALARMS</span></span></div>
-                </a>
+            <div className='bg-faschools_banner grid md:grid-cols-3 h-screen'>
+                <div className='my-auto ml-10 w-full col-span-2'>
+                    <a href='/firealarms'>
+                        <div className='text-xs bg-lightblue text-blue px-2 mb-5 rounded-full w-fit pt-1'><span className='m-auto'><ArrowLeftIcon className='inline-block' />BACK TO <span>FIRE ALARMS</span></span></div>
+                    </a>
 
-                <h1 className='sm:text-5xl text-3xl Wittgenstein text-white font-bold'>
-                <span className='drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Fire Alarms in Schools:</span> Ensuring Safety for All
-            </h1>
+                    <h1 className='md:text-7xl sm:text-5xl text-3xl text-white font-bold'>
+                        <span className='Wittgenstein drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Fire Alarms in <span className='text-blue font-black'>Schools</span></span> 
+                        <p className='md:text-3xl text-sm glassmorphism_blue drop-shadow-[0_15px_15px_rgba(0,0,0,0.8)] rounded-full py-1 animate-bounce px-5 w-fit mt-7'>Ensuring Safety for All</p>
+                    </h1>
+                </div>
+                
+
+
+                <div className='md:grid md:justify-items-stretch'>
+                    <div onClick={handleOpen} className='justify-self-end cursor-pointer mt-10 mr-10 ml-5'>
+
+                        <div className=' relative w-80 h-auto bg-blue rounded-3xl drop-shadow-[0_15px_15px_rgba(0,0,0,0.8)]'>
+                            <span className="relative absolute top-1 left-1 flex h-10 w-10">
+                                <span className=" animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+
+                                <span className="relative inline-flex rounded-full h-10 w-10 bg-white">
+                                    <img src='/icons/discount-shape.svg' className='w-10' />
+                                </span>
+                            </span>
+
+                            <img src='/icons/arrow-circle-down-left.svg' className='w-12 absolute top-0 right-0' />           
+                            <p className='py-5 px-5 text-white font-black text-3xl '>Special Offers</p>
+                            <p className='text-lightblue text-sm mb-2 pl-5'>Click here to see the offers...</p>
+                            
+                            <img className='w-80 rounded-3xl' src='/images/services/firealarms/SpecialOfferFASchool.png' />
+                        </div>
+
+                    </div>
+</div>
             </div>
             
             <div className='pb-32'>
-            
-                <div onClick={handleOpen}>
-                <SpecialOfferLine />
-                </div>
 
-                <Modal
+            <Modal
                         open={open}
                         onClose={handleClose}
-                
-                        className="absolute w-fit h-fit m-auto p-5 text-center"
-                        // style={{
-                        //     position: "absolute",
-                        //     border: "2px solid #000",
-                        //     // backgroundColor: "#ffffff",
-                        //     // overlay: "#ffffff",
-                        //     overlay:{background:'#ffff00' }, 
-                            
-                        //     boxShadow: "",
-                        //     height: 150,
-                        //     width: 240,
-                        //     margin: "auto",
-                        //     padding: "2%",
-                        //     color: "white",
-                        // }}
+                        disableAutoFocus={true}
+                        className="absolute w-fit h-fit m-auto text-center"
                     >
 
-                        <div className='bg-lightgrey rounded-3xl py-5  shadow-3xl shadow-grey'>
-                            <img className='w-52 m-auto' src='/images/services/specialOffer.svg' />
-                            <h2 className="text-center sm:text-3xl font-black text-white bg-red py-5">
-                                LIMITED TIME OFFER!
-                            </h2>
+                        <div className='grid md:grid-cols-2'>
+                            <div className='bg-white md:rounded-l-3xl rounded-t-3xl mx-auto'>
+                                <img className='md:w-96 w-56' src='/images/services/firealarms/SpecialOfferPopUp.gif' alt='Special Offer' />    
+                            </div>
+                            <div className='bg-blue md:rounded-r-3xl relative w-96'>
+                            <div onClick={handleClose} className='absolute top-5 right-5 text-white font-bold cursor-pointer'>X</div>
+                                <div className='absolute -left-12 -top-12 p-3 bg-white w-fit rounded-full border-2 border-blue  drop-shadow-[0_3px_3px_rgba(0,0,0,0.8)]'>
+                                <img src='/images/services/firealarms/PopUpFire.png' className='w-20' />
+                                </div>
+                                <h1 className='uppercase font-black text-3xl py-10 text-white'>Special Offer!</h1>
 
-                            {/* <hr className='mx-5 my-2 border-1 border-grey'/> */}
-
-                            {/* <ChildModal />               */}
-
-
-                            <p className="font-bold text-xs py-10 px-5">
-                                 <span className="font-black sm:text-7xl text-5xl py-5 text-white bg-red rounded-full px-5 shadow-3xl shadow-red">50%</span>  OFF<br/><br/><br/><br/><br/>
-                                 *** GET A DISCOUNT ON ALL OUR SERVICES IN YOUR NEXT ORDER *** 
-                            </p>  
-
+                                <p className=''><span className='font-bold bg-lightblue px-5 py-1 rounded-full border-2 border-navyblue text-navyblue text-sm'>Stay Safe & Save Big!</span> <br/> <br/> <span className=' text-white px-5'>Limited Time Discounts on Essential Fire Safety Equipment!</span></p>
+                                <div className='mt-10 mx-auto bg-white w-fit py-5 px-10 rounded-full text-blue border-2 mb-5 border-darkblue drop-shadow-[0_3px_3px_rgba(0,0,0,0.8)]'>
+                                    <span className='text-7xl font-black'>30%</span>
+                                    <span className='ml-4'>OFF</span>
+                                </div>
+                            </div>
                         </div>
+
+                
 
                     </Modal>
 
-                <div className='grid sm:grid-cols-2 gap-10  py-32 sm:px-10 px-3 text-justify'>
+                <div className='grid sm:grid-cols-2 gap-20  py-32 sm:px-10 px-3 text-justify'>
 
                     <div>
                         <div>
-                            Fire alarms are a critical component of school safety, designed to alert students, staff, and visitors in case of a fire or smoke emergency. These systems are strategically installed throughout the building to provide early warning, allowing for swift evacuation. Modern fire alarms in schools often include audible alarms, flashing lights, and sometimes voice evacuation instructions to ensure everyone is aware of the emergency, regardless of hearing or visual impairments. Regular testing and maintenance of these alarms are essential to keep them in optimal working condition, providing peace of mind and ensuring the safety of all occupants.
+                            Fire alarms are a critical component of educational facilities and school safety, designed to alert students, staff, and visitors in case of a fire or smoke emergency. These systems are strategically installed throughout the building to provide early warning, allowing for swift evacuation. Modern fire alarms in schools often include audible alarms, flashing lights, and sometimes voice evacuation instructions to ensure everyone is aware of the emergency, regardless of hearing or visual impairments. Regular testing and maintenance of these alarms are essential to keep them in optimal working condition, providing peace of mind and ensuring the safety of all occupants.
                         </div>
                         
 
-<div className="grid grid-cols-2 md:grid-cols-3 gap-1 pt-10">
+<div className="grid sm:grid-cols-2 gap-1 pt-10">
     <div className="grid gap-1">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School2.jpeg" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School1.jpeg" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School3.jpeg" alt="" />
         </div>
     </div>
     <div className="grid gap-1">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa4.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School4.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa3.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School5.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/schoolfire.webp" alt="" />
-        </div>
-    </div>
-    <div className="grid gap-1">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/fa2.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/images/services/firealarms/School6.png" alt="" />
         </div>
     </div>
 

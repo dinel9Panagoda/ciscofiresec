@@ -13,62 +13,32 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        imgSrc: '/images/services/netservers/NS1.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA1.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS2.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA2.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS3.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA3.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS4.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA4.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS5.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA5.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS6.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA6.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS7.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA7.jpeg'
     },
     {
-        imgSrc: '/images/services/netservers/NS8.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS9.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS10.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS11.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS12.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS13.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS14.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS15.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS16.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS17.jpeg'
-    },
-    {
-        imgSrc: '/images/services/netservers/NS18.jpeg'
+        imgSrc: '/images/services/intrusionalarms/IA8.jpeg'
     }
 ]
 
-const NetworkingServer = () => {
+const IntrusionAlarms = () => {
 
     const settings = {
         dots: false,
@@ -126,22 +96,23 @@ return (
         
         {/* <div className=''> */}
         <div className='mb-32'>
-            <img className='w-full' src='/images/services/netservers/NetServerMainBanner.png' />
+            <img className='w-full' src='/images/services/intrusionalarms/IntrusionAlarmMainBanner.png' />
 
         </div>
 
         <div className='grid sm:grid-cols-2 gap-7 px-10 max-w-7xl mx-auto'>
             <div>
-                <img src='/images/services/netservers/NetServer.jpeg' alt="Network Server" className="inline-block rounded-3xl w-full"  />
+                <img src='/images/services/intrusionalarms/IntrusionAlarm.jpeg' alt="Intrusion Alarm" className="inline-block rounded-3xl w-full"  />
             </div>
             <div className='text-justify'>
-            <img className='w-full max-w-7xl mx-auto' src='/images/services/netservers/NET_SERVERS.png' /><br />
-            A network server is a powerful computer connected to your business network. Network servers have many functions and can form an important part of your computer network. They are usually used for shared le storage, email management and to run centralised applications, such as your customer database. Wire Server is a collection of API server components that connect to each other and to databases. The API components and databases are each in a cluster, which means that copies of the same program code run multiple times. Wire clients, such as the Wire app on a phone, can connect to.
+                <img className='inline-block w-auto' src='/images/services/intrusionalarms/INTRUSION_ALARMS.GIF' /><br />
+                Intrusion alarms, also known as burglar alarms or security alarms,are essential components of security systems designed to detect unauthorized entry or intrusion into a protected area. These alarms consist of sensors strategically placed around a property, such as door and window contacts, motion detectors, and glass break sensors, which are connected to a central control panel. When an unauthorized entry is detected, the sensors trigger the alarm system, which then emits a loud sound or sends a notication to alert occupants or security personnel of the potential threat. Intrusion alarms serve as a deterrent to burglars and intruders, helping to protect homes, businesses, and other properties from theft, vandalism, and unauthorized access.
+
 
             </div>
 
         </div>
- <div className='specialOfferSideBar'>
+                <div className='specialOfferSideBar'>
                     <div onClick={handleOpen} className='justify-self-end cursor-pointer mt-10 ml-5'>
 
                     <div className=' relative w-40 h-auto bg-blue rounded-3xl drop-shadow-[0_15px_15px_rgba(0,0,0,0.8)]'>
@@ -157,13 +128,12 @@ return (
                             <p className='pt-5 px-5 text-white font-black text-xl '>Special Offers</p>
                             <p className='text-lightblue text-xs mb-1 pl-5'>Click here...</p>
                             
-                            <img className='w-80 rounded-3xl bg-white p-3' src='/images/services/netservers/SpecialOfferNS.png' />
+                            <img className='w-80 rounded-3xl bg-white p-3' src='/images/services/intrusionalarms/SpecialOfferIA.png' />
                         </div>
 
 </div>
                 </div>
-        <RecentWork />
-        
+        <RecentWork />     
         <Modal
                         open={open}
                         onClose={handleClose}
@@ -178,11 +148,11 @@ return (
                             <div className='bg-blue md:rounded-r-3xl relative w-96'>
                             <div onClick={handleClose} className='absolute top-5 right-5 text-white font-bold cursor-pointer'>X</div>
                                 <div className='absolute -left-12 -top-12 p-3 bg-white w-fit rounded-full border-2 border-blue  drop-shadow-[0_3px_3px_rgba(0,0,0,0.8)]'>
-                                <img src='/images/services/netservers/SpecialOfferNS.png' className='w-20' />
+                                <img src='/images/services/intrusionalarms/SpecialOfferIA.png' className='w-20' />
                                 </div>
                                 <h1 className='uppercase font-black text-3xl py-10 text-white'>Special Offer!</h1>
 
-                                <p className=''><span className='font-bold bg-lightblue px-5 py-1 rounded-full border-2 border-navyblue text-navyblue text-sm'>Stay Safe & Save Big!</span> <br/> <br/> <span className=' text-white px-5'>Limited Time Discounts on Networking Server/ Wiring Service!</span></p>
+                                <p className=''><span className='font-bold bg-lightblue px-5 py-1 rounded-full border-2 border-navyblue text-navyblue text-sm'>Stay Safe & Save Big!</span> <br/> <br/> <span className=' text-white px-5'>Limited Time Discounts on Essential Intrusion Equipment!</span></p>
                                 <div className='mt-10 mx-auto bg-white w-fit py-5 px-10 rounded-full text-blue border-2 mb-5 border-darkblue drop-shadow-[0_3px_3px_rgba(0,0,0,0.8)]'>
                                     <span className='text-7xl font-black'>30%</span>
                                     <span className='ml-4'>OFF</span>
@@ -193,7 +163,7 @@ return (
                 
 
                     </Modal>
-        <h6 className='text-red text-center pb-5 font-bold text-3xl'>Recent Networking/ Wiring Server Room Units We Did For Our Clients...</h6>
+        <h6 className='text-red text-center pb-5 font-bold text-3xl'>Recent Intrusion Alarm Units We Did For Our Clients...</h6>
 
 
         <Slider {...settings}>
@@ -215,4 +185,4 @@ return (
   )
 }
 
-export default NetworkingServer
+export default IntrusionAlarms
