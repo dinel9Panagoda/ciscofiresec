@@ -23,10 +23,12 @@ module.exports = {
       'black': '#000000',
       'blue': '#0066FF',
       'red': '#EC1E24',
+      'darkred': '#b91c1c',
       'lightred': '#fee2e2',
       'orangered': '#FF3131',
       'lightblue': '#eff6ff',
       'darkpurple': '#241A24',
+      'brightblue': '#5271FF',
       'navyblue': '#273F92',
       'darkblue': '#1E013A',
       'offwhite': 'rgba(255, 255, 255, 0.75)',
@@ -44,7 +46,9 @@ module.exports = {
       'hoblue': '#0000FF',
       'btnblue' : "#267dff",
       'footer' : 'rgba(226, 223, 223, 0.75)',
-      'linegrey' : "#C4C4C4"
+      'linegrey' : "#C4C4C4",
+      'yellow': '#fde047',
+      'green': '#73CD00'
     },
     fontSize: {
         xss: ['0.50rem', { lineHeight: '1rem' }],
@@ -72,6 +76,12 @@ module.exports = {
         square: 'square',
       },
     extend: {
+        keyframes: {
+            wiggle: {
+              '0%, 100%': { transform: 'rotate(-3deg)' },
+              '50%': { transform: 'rotate(3deg)' },
+            }
+          },
         animation: {
             'infinite-scroll': 'infinite-scroll 25s linear infinite',
           },

@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import SideBar from '../components/SideBar/index';
 
 export const metadata = {
   title: 'Cisco',
@@ -13,6 +14,7 @@ const RootLayout = ({ children }) => {
           <body>
           <Navbar />
 
+      <SideBar />
                         
                           {children}
 
