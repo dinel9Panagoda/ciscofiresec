@@ -91,7 +91,6 @@ const Card = () => {
                 
 
                     </Modal>
-        <h6 className='text-red text-center pb-5 font-bold text-3xl'>Recent Networking/ Wiring Server Room Units We Did For Our Clients...</h6>
 
 
                 <div className='grid sm:grid-cols-2 gap-20  py-32 sm:px-10 px-3 text-justify'>

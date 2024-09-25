@@ -2,8 +2,10 @@ import React from 'react'
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
 import Wework from '../../components/Wework/index'
+import Beliefs from '@/components/Beliefs';
 
 const AboutUs = () => {
+    
   return (
     <section className='max-x-7xl'>
 
@@ -12,14 +14,17 @@ const AboutUs = () => {
         </h1>
         <p className='text-center font-black Wittgenstein text-3xl text-red py-10'>Ensuring Safety for All</p>
 
+
         <div className='px-20'>
 
-        <p className='text-center font-light italic'>
-            "The company was established in <span className='font-bold text-red'>1982</span> where  me and my army friend start installing residential alarm systems. I remember  back then control panel had only one light green loop close, and a key pad to arm and disarm the alarm. Same for fire alarms. Then some company from California came out with a keypad  with zone description. From residential, we moved on to commercial installation intercom systems. CCTV cameras were 115 volts high voltage. After few years the technology improved, went from training on silent knight fire alarms to electric company fire alarm panel. When internet established, we got contract for RCN  high rise buildings  coring 3/12 inch holes through the floors installing pipe boxes running 25 pair cat phone wire fiber, and  650 wire molding to each apartment. By then we had about 12 employees, accounting 2 secretaries. I remember 9/11, we were installing  internet, and pipe boxes was staret city in Bronx. 18 buildings, then got contract with sureguart storage company. They had about 2000 storage facilities all over united states so storage unit were 500 or 800 doors. We installed contact on each door gated door king fire alarms. Did it from main, all the way to Albany Georgia. Was a lot on the road with the guys in general.  I did all aspects of low voltage cameras, fire alarms, intercom systems, CCTV, computer network, cat 5, cat 6, cat 7. Installed switches, and terminated computer wiring. Doing it about <span className='font-bold text-red'>40</span> years" <br/>
-            <span className='font-semibold'>Founder</span><br/>
-            <span className='font-semibold text-blue'>Victor Gaier</span>
+        <p className='text-center font-light italic bg-lightgrey py-20 px-20 rounded-3xl mb-20'>
+            "The company was established in <span className='font-bold text-red'>1982</span> where  me and my army friend start installing residential alarm systems. I remember  back then control panel had only one light green loop close, and a key pad to arm and disarm the alarm. Same for fire alarms. Then some company from California came out with a keypad  with zone description. From residential, we moved on to commercial installation intercom systems. CCTV cameras were 115 volts high voltage. After few years the technology improved, went from training on silent knight fire alarms to electric company fire alarm panel. When internet established, we got contract for RCN  high rise buildings  coring 3/12 inch holes through the floors installing pipe boxes running 25 pair cat phone wire fiber, and  650 wire molding to each apartment. By then we had about 12 employees, accounting 2 secretaries. I remember 9/11, we were installing  internet, and pipe boxes was staret city in Bronx. 18 buildings, then got contract with sureguart storage company. They had about 2000 storage facilities all over united states so storage unit were 500 or 800 doors. We installed contact on each door gated door king fire alarms. Did it from main, all the way to Albany Georgia. Was a lot on the road with the guys in general.  I did all aspects of low voltage cameras, fire alarms, intercom systems, CCTV, computer network, cat 5, cat 6, cat 7. Installed switches, and terminated computer wiring. Doing it about <span className='font-bold text-red'>40</span> years"
+            <p className='font-semibold text-xl pt-5'>Founder</p>
+            <p className='font-semibold text-blue text-xl'>Victor Gaier</p>
             </p>
-            <h1 className='pt-20 font-bold text-3xl text-center '>Why choosing us?</h1>
+        <Beliefs />
+
+            <h1 className='pt-20 font-bold text-3xl text-center '>Why Choose Us?</h1>
             <div className='flex justify-center items-center'>
             <div className='grid md:grid-cols-2 gap-10 mt-20 '>
                 <div className='text-center'>
@@ -88,7 +93,10 @@ const AboutUs = () => {
         
         </div>
 
+        <div className='pb-10'>
         <Wework />
+
+        </div>
     </section>
 
     )

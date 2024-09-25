@@ -1,11 +1,44 @@
+"use client"
+import { Fragment, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { useRouter } from "next/navigation";
+
 import Image from "next/image";
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Beliefs = () => {
+
+    const form = useRef();
+
+    const router = useRouter();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID, form.current, {
+            publicKey: process.env.NEXT_PUBLIC_EMAIL_USER_ID
+        }).then(
+            () => {
+                toast.success("Thank you for your interest!");
+                router.push('/');
+
+            },
+            (error) => {
+                toast.error('Error...');
+            },
+        );
+    };
+
+
     return (
-        <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl'>
+        <>
+                                            <ToastContainer />
+
+                <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl'>
+
 
 <div className="text-center">
                     <h3 className="text-red text-lg font-normal tracking-widest">CONTACT US. WE ARE READY TO HELP</h3>
@@ -21,34 +54,33 @@ const Beliefs = () => {
                     <h2 className="text-lg font-normal text-navyblue tracking-widest mb-5 text-center sm:text-start">SEND US A MESSAGE</h2>
                     <div className="py-8 lg:py-8 px-4 mx-auto max-w-screen-md mb-20">
 
-<form action="#" className="space-y-8" 
+<form  ref={form} 
+                                                onSubmit={sendEmail} className="space-y-8" 
 >
     <div>
-        <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
+        <label htmlFor="user_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
         <input
-            id="text"
+            id="user_name"
 
-            name="input1"
+            name="user_name"
             // value={inputValues.input1}
             // onChange={handleChange}
 
             type="text"
-            autoComplete="current-password"
             required
             className="relative block w-full appearance-none  rounded-3xl border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
             placeholder="Name..."
         />
     </div>
     <div>
-        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+        <label htmlFor="user_email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
         <input
-            id="email"
-            name="input2"
+            id="user_email"
+            name="user_email"
             // value={inputValues.input2}
             // onChange={handleChange}
 
             type="email"
-            autoComplete="current-password"
             required
             className="relative block w-full appearance-none  rounded-full border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
             placeholder="xyz@email.com"
@@ -58,7 +90,7 @@ const Beliefs = () => {
         <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
         <textarea
             id="message"
-            name="input3"
+            name="message"
             // value={inputValues.input3}
             // onChange={handleChange}
             className="relative block w-full appearance-none  rounded-lg border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Leave a comment..."></textarea>
@@ -128,6 +160,8 @@ const Beliefs = () => {
 
             </div>
         </div>
+        </>
+
     )
 }
 
