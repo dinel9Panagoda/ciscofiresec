@@ -1,23 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-// MIDDLE LINKS DATA
-interface ProductType {
-    id: number;
-    link: string[];
-}
-
-const products: ProductType[] = [
-    {
-        id: 1,
-        link: ['Home', 'About Us', 'Architects', 'Computer Servers'],
-    },
-    {
-        id: 2,
-        link: ['Fire Alarms', 'Pre K Fire Alarm', 'Contact']
-    }
-]
-
 const Footer = () => {
     return (
         <div className="bg-grey">
@@ -45,17 +28,63 @@ const Footer = () => {
 
                     {/* CLOUMN-2/3 */}
 
-                    {products.map((product) => (
-                        <div key={product.id} className="group relative col-span-2 md:col-span-4 lg:col-span-2">
+                   
+                        <div className="group relative col-span-2 md:col-span-4 lg:col-span-2">
                             <ul>
-                                {product.link.map((link: string, index: number) => (
-                                    <li key={index} className='mb-5'>
-                                        <Link href="/" className="text-white text-sm font-normal mb-6 space-links">{link}</Link>
+                                
+                                    <li className='mb-5'>
+                                            <Link href='/' className="text-white text-sm font-normal mb-6 space-links">Home</Link>
                                     </li>
-                                ))}
+                                    <li className='mb-5'>
+                                            <Link href='/aboutus' className="text-white text-sm font-normal mb-6 space-links">About Us</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/architects' className="text-white text-sm font-normal mb-6 space-links">Architects</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/contractors' className="text-white text-sm font-normal mb-6 space-links">Contractors</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/electricians' className="text-white text-sm font-normal mb-6 space-links">Electricians</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/realestateagents' className="text-white text-sm font-normal mb-6 space-links">Real Estate Agents</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/buildingmanagers' className="text-white text-sm font-normal mb-6 space-links">Building Managers</Link>
+                                    </li>
                             </ul>
                         </div>
-                    ))}
+
+                        <div className="group relative col-span-2 md:col-span-4 lg:col-span-2">
+                            <ul>
+                                
+                                    <li className='mb-5'>
+                                            <Link href='/firealarms' className="text-white text-sm font-normal mb-6 space-links">Fire Alarms</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/accesscontrol' className="text-white text-sm font-normal mb-6 space-links">Access Control</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/videointercom' className="text-white text-sm font-normal mb-6 space-links">Video Intercom</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/cctv' className="text-white text-sm font-normal mb-6 space-links">CCTV</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/intrusionalarms' className="text-white text-sm font-normal mb-6 space-links">Intrusion Alarms</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/slidingswingdoors' className="text-white text-sm font-normal mb-6 space-links">Sliding/ Swing Doors</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/magneticsecuritylocks' className="text-white text-sm font-normal mb-6 space-links">Magnetic Locks</Link>
+                                    </li>
+                                    <li className='mb-5'>
+                                            <Link href='/networkingwiring' className="text-white text-sm font-normal mb-6 space-links">Networking/ Wiring Servers</Link>
+                                    </li>
+                            </ul>
+                        </div>
 
                     {/* CLOUMN-4 */}
 
