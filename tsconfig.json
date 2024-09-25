@@ -28,6 +28,6 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/ContactForm/index.jsx", "components/Navbar/Contactus.jsx", "app/accesscontrol/page copy.jsx"  ],
+, "components/ContactForm/index.jsx", "components/Navbar/Contactus.jsx", "app/accesscontrol/page copy.jsx", "components/Beliefs/index.jsx"  ],
   "exclude": ["node_modules"]
 }
