@@ -30,7 +30,7 @@ const Banner = () => {
                             <a href="/firealarms">
 
                             <div className="relative pt-2 shadow-lg rounded-3xl lg:h-56 h-32 mx-2">
-                            <img src='/images/services/firealarms/fireAlarmsBanner.jpeg' alt="Fire Alarms" className="inline-block m-auto rounded-t-3xl rounded-b-xl w-full object-cover h-full" />
+                            <img src='/images/services/firealarms/FireAlarmsBanner.jpeg' alt="Fire Alarms" className="inline-block m-auto rounded-t-3xl rounded-b-xl w-full object-cover h-full" />
                             <span className="glassmorphism absolute lg:text-sm text-xs bottom-1 right-1 text-white py-1 px-3 rounded-full">
                                         <div>More Info <ArrowCircleRightIcon className="lg:text-4xl md:text-3xl sm:text-2xl inline-block fill-white" /></div>
                                         
